@@ -1,0 +1,12 @@
+@import "_variables";
+
+@import "blocks/header";
+
+
+.container {
+    padding: 0 16px;
+    background: $backgroundLightColor;
+    color: $textMainColor;
+    font-family: $mainFont;
+    position: relative;
+}

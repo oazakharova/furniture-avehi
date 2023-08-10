@@ -1,3 +1,79 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+/* line 1, blocks/_header.scss */
+header {
+  min-height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+/* line 8, blocks/_header.scss */
+.logo {
+  width: 70px;
+  height: 74.375px;
+  color: #212529;
+}
+
+/* line 14, blocks/_header.scss */
+.navWrap {
+  position: absolute;
+  right: 0;
+  width: 417px;
+}
+
+/* line 20, blocks/_header.scss */
+.navHidden {
+  display: none;
+  justify-content: space-between;
+  align-items: top;
+}
+@media (min-width: 1024px) {
+  /* line 20, blocks/_header.scss */
+  .navHidden {
+    display: flex;
+  }
+}
+
+/* line 30, blocks/_header.scss */
+.navLinks {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+/* line 34, blocks/_header.scss */
+.navLinks a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #212529;
+}
+
+/* line 41, blocks/_header.scss */
+.contactNumber {
+  font-size: 18px;
+}
+
+/* line 46, blocks/_header.scss */
+.navBarIcon {
+  width: 30px;
+  height: 30px;
+  color: #65727e;
+}
+@media (min-width: 1024px) {
+  /* line 46, blocks/_header.scss */
+  .navBarIcon {
+    display: none;
+  }
+}
+
+/* line 6, style.scss */
+.container {
+  padding: 0 16px;
+  background: #FFFFFF;
+  color: #212529;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
 
 /*# sourceMappingURL=style.css.map */
