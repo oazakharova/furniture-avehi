@@ -102,6 +102,8 @@ main {
 
 
 .aboutCompany {
+    margin-top: 48px;
+
     .aboutCompanyHeader {
         font-size: 28px;
         font-weight: normal;
@@ -122,9 +124,15 @@ main {
     }
 
     aside {
-        h3 {
+
+        h3,
+        h4 {
             font-size: 24px;
             font-weight: normal;
+        }
+
+        h4 {
+            padding-bottom: 20px;
         }
 
         p {
@@ -146,6 +154,7 @@ main {
 
         .aboutCompanyDetailedPart {
             width: 650px;
+            margin-top: 29px;
         }
 
         .aboutCompanyHeader {
@@ -155,20 +164,57 @@ main {
         }
 
         .aboutCompanyDescription {
-            font-size: 16px;
             width: 446px;
         }
 
         .hiddenParagraph {
             display: inline;
-            font-size: 40px;
+        }
+    }
+}
 
+.aboutCompanyDetailedPart {
+    section {
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        h4 {
+            font-size: 24px;
+            font-weight: normal;
         }
 
-        .aboutCompanyDescription:first-child {
-            margin-top: 55px+20px;
+        p {
+            font-size: 16px;
+        }
+    }
+
+    hr {
+        color: 1px solid black;
+    }
+
+    @media(min-width: 1024px) {
+        section:first-child {
+            margin-top: -29px;
         }
 
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            width: 678px;
 
+            h4 {
+                width: 328px;
+                font-size: 36px;
+                margin-top: 0;
+            }
+
+            p {
+                display: inline-block;
+                width: 329px;
+                padding-right: 32px;
+            }
+        }
     }
 }
