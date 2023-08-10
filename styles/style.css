@@ -173,6 +173,73 @@ header {
   }
 }
 
+/* line 105, blocks/_main.scss */
+.aboutCompany .aboutCompanyHeader {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+/* line 111, blocks/_main.scss */
+.aboutCompany .aboutCompanyDescription:first-child {
+  margin-top: 0;
+}
+/* line 115, blocks/_main.scss */
+.aboutCompany .aboutCompanyDescription {
+  padding-right: 15px;
+  font-size: 16px;
+}
+/* line 120, blocks/_main.scss */
+.aboutCompany .hiddenParagraph {
+  display: none;
+}
+/* line 125, blocks/_main.scss */
+.aboutCompany aside h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+/* line 130, blocks/_main.scss */
+.aboutCompany aside p {
+  font-size: 16px;
+  max-width: 160px;
+  margin-top: -24px;
+}
+@media (min-width: 1024px) {
+  /* line 104, blocks/_main.scss */
+  .aboutCompany {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 120px;
+  }
+  /* line 143, blocks/_main.scss */
+  .aboutCompany .aboutCompanyMainPart {
+    width: 562px;
+  }
+  /* line 147, blocks/_main.scss */
+  .aboutCompany .aboutCompanyDetailedPart {
+    width: 650px;
+  }
+  /* line 151, blocks/_main.scss */
+  .aboutCompany .aboutCompanyHeader {
+    font-size: 48px;
+    margin-top: 0;
+  }
+  /* line 157, blocks/_main.scss */
+  .aboutCompany .aboutCompanyDescription {
+    font-size: 16px;
+    width: 446px;
+  }
+  /* line 162, blocks/_main.scss */
+  .aboutCompany .hiddenParagraph {
+    display: inline;
+    font-size: 40px;
+  }
+  /* line 168, blocks/_main.scss */
+  .aboutCompany .aboutCompanyDescription:first-child {
+    margin-top: 75px;
+  }
+}
+
 /* line 6, style.scss */
 .container {
   padding: 0 16px;
