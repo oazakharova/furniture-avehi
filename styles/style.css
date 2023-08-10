@@ -67,6 +67,112 @@ header {
   }
 }
 
+@media (max-width: 1023px) {
+  /* line 1, blocks/_main.scss */
+  main {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/* line 9, blocks/_main.scss */
+.welcomeWrap {
+  max-height: 385px;
+}
+/* line 12, blocks/_main.scss */
+.welcomeWrap .welcomeInfo {
+  max-width: 343px;
+}
+/* line 16, blocks/_main.scss */
+.welcomeWrap .welcomeHeader {
+  font-size: 32px;
+  margin-top: 20px;
+}
+/* line 22, blocks/_main.scss */
+.welcomeWrap .welcomeDescription {
+  font-size: 16px;
+  margin-top: 20px;
+  max-width: 320px;
+  padding-right: 10px;
+}
+/* line 29, blocks/_main.scss */
+.welcomeWrap .welcomeButton {
+  background: #FFFFFF;
+  font-size: 19px;
+  margin-top: 24px;
+  border: none;
+  border-bottom: 1px solid #212529;
+  padding: 0;
+}
+@media (min-width: 1024px) {
+  /* line 9, blocks/_main.scss */
+  .welcomeWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 43, blocks/_main.scss */
+  .welcomeWrap .welcomeHeader {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 75px;
+    margin-top: 40px;
+  }
+  /* line 51, blocks/_main.scss */
+  .welcomeWrap .welcomeInfo {
+    max-width: 794px;
+  }
+  /* line 55, blocks/_main.scss */
+  .welcomeWrap .welcomeDescription {
+    font-size: 20px;
+    margin-top: 40px;
+    max-width: 445px;
+  }
+  /* line 61, blocks/_main.scss */
+  .welcomeWrap .welcomeButton {
+    padding-top: 94px;
+    padding-right: 0;
+  }
+}
+
+/* line 68, blocks/_main.scss */
+.demoImages {
+  margin-top: 24px;
+}
+/* line 71, blocks/_main.scss */
+.demoImages .demoImages1 {
+  display: none;
+}
+/* line 75, blocks/_main.scss */
+.demoImages .demoImages2 {
+  width: 300px;
+  height: 261px;
+  object-fit: cover;
+  padding-right: 0;
+}
+@media (min-width: 1300px) {
+  /* line 68, blocks/_main.scss */
+  .demoImages {
+    margin: -65px 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  /* line 88, blocks/_main.scss */
+  .demoImages .demoImages1 {
+    display: block;
+    width: 329px;
+    height: 493px;
+    object-fit: cover;
+  }
+  /* line 95, blocks/_main.scss */
+  .demoImages .demoImages2 {
+    display: block;
+    width: 650px;
+    height: 809px;
+  }
+}
+
 /* line 6, style.scss */
 .container {
   padding: 0 16px;

@@ -1,0 +1,101 @@
+main {
+
+    @media(max-width:1023px) {
+        width: 320px;
+        margin: 0 auto;
+    }
+}
+
+.welcomeWrap {
+    max-height: 385px;
+
+    .welcomeInfo {
+        max-width: 343px;
+    }
+
+    .welcomeHeader {
+        font-size: 32px;
+        margin-top: 20px;
+
+    }
+
+    .welcomeDescription {
+        font-size: 16px;
+        margin-top: 20px;
+        max-width: 320px;
+        padding-right: 10px;
+    }
+
+    .welcomeButton {
+        background: $backgroundLightColor;
+        font-size: 19px;
+        margin-top: 24px;
+        border: none;
+        border-bottom: 1px solid $textMainColor;
+        padding: 0;
+    }
+
+    @media(min-width: 1024px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .welcomeHeader {
+            text-transform: uppercase;
+            font-size: 70px;
+            line-height: 75px;
+            // width: 794px;
+            margin-top: 40px;
+        }
+
+        .welcomeInfo {
+            max-width: 794px;
+        }
+
+        .welcomeDescription {
+            font-size: 20px;
+            margin-top: 40px;
+            max-width: 445px;
+        }
+
+        .welcomeButton {
+            padding-top: 94px;
+            padding-right: 0;
+        }
+    }
+}
+
+.demoImages {
+    margin-top: 24px;
+
+    .demoImages1 {
+        display: none;
+    }
+
+    .demoImages2 {
+        width: 300px;
+        height: 261px;
+        object-fit: cover;
+        padding-right: 0;
+    }
+
+    @media(min-width:1300px) {
+        margin: -65px 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        .demoImages1 {
+            display: block;
+            width: 329px;
+            height: 493px;
+            object-fit: cover;
+        }
+
+        .demoImages2 {
+            display: block;
+            width: 650px;
+            height: 809px;
+        }
+    }
+}
