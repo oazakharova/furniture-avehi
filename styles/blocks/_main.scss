@@ -218,3 +218,172 @@ main {
         }
     }
 }
+
+
+.projectsCatalog {
+    margin-top: 48px;
+
+    @media(min-width: 1400px) {
+        margin-top: 120px;
+    }
+
+    h5 {
+        font-size: 28px;
+        font-weight: normal;
+        margin-bottom: 20px;
+
+        @media(min-width: 1400px) {
+            font-size: 48px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .projectItemWrap {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 20px;
+
+        @media(min-width: 1024px) {
+            grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+        }
+
+        @media(min-width: 1400px) {
+            grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+        }
+
+    }
+
+    .projectItem {
+        position: relative;
+    }
+
+
+    .projectItemDescriptionHover {
+        //display: none;
+        position: absolute;
+        bottom: 4px;
+        width: 300px;
+        height: 44px;
+        box-sizing: border-box;
+        padding: 11px 12px;
+        color: $backgroundLightColor;
+        background: rgba(33, 37, 41, 0.50);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media(min-width: 1400px) {
+            height: 66px;
+            width: 435px;
+        }
+
+        i {
+            color: $backgroundLightColor;
+            width: 12px;
+            height: 12px;
+            padding-bottom: 5px;
+            padding-right: 5px;
+        }
+    }
+
+    .projectItem img {
+        object-fit: cover;
+        width: 300px;
+        height: 261px;
+
+        @media(min-width: 1400px) {
+            width: 435px;
+            height: 580px;
+        }
+
+        &:hover .projectItemDescriptionHover {
+            display: block;
+        }
+    }
+}
+
+.feedbackWrap {
+    margin-top: 59px;
+
+    @media(min-width: 1024px) {
+        margin-top: 120px;
+    }
+
+    .feedbackCollection {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 16px;
+
+        @media(min-width: 1024px) {
+            grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+        }
+
+        @media(min-width: 1400px) {
+            grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+        }
+    }
+
+    h5 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-weight: normal;
+
+        @media(min-width: 1024px) {
+            font-size: 48px;
+        }
+    }
+
+    .feedbackItem {
+        width: 300px;
+        height: 332px;
+        box-sizing: border-box;
+        border: 1px solid $textMainColor;
+        text-align: center;
+
+        @media(min-width: 1400px) {
+            width: 435px;
+            height: 327px;
+        }
+
+        img {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            width: 32px;
+            height: 32px;
+
+            @media(min-width: 1024px) {
+                width: 40px;
+                height: 40px;
+                padding-top: 40px;
+            }
+
+        }
+
+        h6 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .feedbackPersonal {
+            width: 240px;
+            font-size: 16px;
+            margin: 20px auto;
+
+            @media(min-width: 1400px) {
+                width: 355px;
+            }
+        }
+    }
+
+    .feedbackItemHidden {
+        @media(min-width: 1024px) {
+            display: none;
+        }
+
+        @media(min-width: 1400px) {
+            display: block;
+        }
+
+    }
+}

@@ -289,6 +289,199 @@ header {
   }
 }
 
+/* line 223, blocks/_main.scss */
+.projectsCatalog {
+  margin-top: 48px;
+}
+@media (min-width: 1400px) {
+  /* line 223, blocks/_main.scss */
+  .projectsCatalog {
+    margin-top: 120px;
+  }
+}
+/* line 230, blocks/_main.scss */
+.projectsCatalog h5 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+@media (min-width: 1400px) {
+  /* line 230, blocks/_main.scss */
+  .projectsCatalog h5 {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+}
+/* line 241, blocks/_main.scss */
+.projectsCatalog .projectItemWrap {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+}
+@media (min-width: 1024px) {
+  /* line 241, blocks/_main.scss */
+  .projectsCatalog .projectItemWrap {
+    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+  }
+}
+@media (min-width: 1400px) {
+  /* line 241, blocks/_main.scss */
+  .projectsCatalog .projectItemWrap {
+    grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+  }
+}
+/* line 256, blocks/_main.scss */
+.projectsCatalog .projectItem {
+  position: relative;
+}
+/* line 261, blocks/_main.scss */
+.projectsCatalog .projectItemDescriptionHover {
+  position: absolute;
+  bottom: 4px;
+  width: 300px;
+  height: 44px;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  color: #FFFFFF;
+  background: rgba(33, 37, 41, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 1400px) {
+  /* line 261, blocks/_main.scss */
+  .projectsCatalog .projectItemDescriptionHover {
+    height: 66px;
+    width: 435px;
+  }
+}
+/* line 280, blocks/_main.scss */
+.projectsCatalog .projectItemDescriptionHover i {
+  color: #FFFFFF;
+  width: 12px;
+  height: 12px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+/* line 289, blocks/_main.scss */
+.projectsCatalog .projectItem img {
+  object-fit: cover;
+  width: 300px;
+  height: 261px;
+}
+@media (min-width: 1400px) {
+  /* line 289, blocks/_main.scss */
+  .projectsCatalog .projectItem img {
+    width: 435px;
+    height: 580px;
+  }
+}
+/* line 299, blocks/_main.scss */
+.projectsCatalog .projectItem img:hover .projectItemDescriptionHover {
+  display: block;
+}
+
+/* line 305, blocks/_main.scss */
+.feedbackWrap {
+  margin-top: 59px;
+}
+@media (min-width: 1024px) {
+  /* line 305, blocks/_main.scss */
+  .feedbackWrap {
+    margin-top: 120px;
+  }
+}
+/* line 312, blocks/_main.scss */
+.feedbackWrap .feedbackCollection {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+}
+@media (min-width: 1024px) {
+  /* line 312, blocks/_main.scss */
+  .feedbackWrap .feedbackCollection {
+    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+  }
+}
+@media (min-width: 1400px) {
+  /* line 312, blocks/_main.scss */
+  .feedbackWrap .feedbackCollection {
+    grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+  }
+}
+/* line 326, blocks/_main.scss */
+.feedbackWrap h5 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: normal;
+}
+@media (min-width: 1024px) {
+  /* line 326, blocks/_main.scss */
+  .feedbackWrap h5 {
+    font-size: 48px;
+  }
+}
+/* line 336, blocks/_main.scss */
+.feedbackWrap .feedbackItem {
+  width: 300px;
+  height: 332px;
+  box-sizing: border-box;
+  border: 1px solid #212529;
+  text-align: center;
+}
+@media (min-width: 1400px) {
+  /* line 336, blocks/_main.scss */
+  .feedbackWrap .feedbackItem {
+    width: 435px;
+    height: 327px;
+  }
+}
+/* line 348, blocks/_main.scss */
+.feedbackWrap .feedbackItem img {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 32px;
+  height: 32px;
+}
+@media (min-width: 1024px) {
+  /* line 348, blocks/_main.scss */
+  .feedbackWrap .feedbackItem img {
+    width: 40px;
+    height: 40px;
+    padding-top: 40px;
+  }
+}
+/* line 362, blocks/_main.scss */
+.feedbackWrap .feedbackItem h6 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 368, blocks/_main.scss */
+.feedbackWrap .feedbackItem .feedbackPersonal {
+  width: 240px;
+  font-size: 16px;
+  margin: 20px auto;
+}
+@media (min-width: 1400px) {
+  /* line 368, blocks/_main.scss */
+  .feedbackWrap .feedbackItem .feedbackPersonal {
+    width: 355px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 379, blocks/_main.scss */
+  .feedbackWrap .feedbackItemHidden {
+    display: none;
+  }
+}
+@media (min-width: 1400px) {
+  /* line 379, blocks/_main.scss */
+  .feedbackWrap .feedbackItemHidden {
+    display: block;
+  }
+}
+
 /* line 6, style.scss */
 .container {
   padding: 0 16px;
