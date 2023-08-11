@@ -1,0 +1,57 @@
+footer {
+    min-height: 170px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    a {
+        text-decoration: none;
+        color: $textMainColor;
+    }
+
+    .socialLinks {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 24px;
+
+        a {
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+    }
+
+    .privacyPaymentDeliveryWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 20px;
+
+        span {
+            display: none;
+        }
+
+        a {
+            font-size: 16px;
+            min-width: 142px;
+            padding-bottom: 8px;
+        }
+
+    }
+
+    .allRightsReserverved {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 20px;
+
+        div {
+            min-width: 110px;
+        }
+    }
+}

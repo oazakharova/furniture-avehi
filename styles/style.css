@@ -482,7 +482,65 @@ header {
   }
 }
 
-/* line 6, style.scss */
+/* line 1, blocks/_footer.scss */
+footer {
+  min-height: 170px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+/* line 8, blocks/_footer.scss */
+footer a {
+  text-decoration: none;
+  color: #212529;
+}
+/* line 13, blocks/_footer.scss */
+footer .socialLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+/* line 19, blocks/_footer.scss */
+footer .socialLinks a {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/* line 25, blocks/_footer.scss */
+footer .privacyPaymentDeliveryWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+/* line 33, blocks/_footer.scss */
+footer .privacyPaymentDeliveryWrap span {
+  display: none;
+}
+/* line 37, blocks/_footer.scss */
+footer .privacyPaymentDeliveryWrap a {
+  font-size: 16px;
+  min-width: 142px;
+  padding-bottom: 8px;
+}
+/* line 45, blocks/_footer.scss */
+footer .allRightsReserverved {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+/* line 53, blocks/_footer.scss */
+footer .allRightsReserverved div {
+  min-width: 110px;
+}
+
+/* line 7, style.scss */
 .container {
   padding: 0 16px;
   background: #FFFFFF;
